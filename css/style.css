@@ -378,7 +378,11 @@ main p{
     line-height: 1.6;
     padding-bottom: 30px;
 }
-
+@media (max-width:767px){
+    .portfolio .card .info p{
+        line-height: normal;
+    }
+}
 /* about */
 
 .about .about-items{
