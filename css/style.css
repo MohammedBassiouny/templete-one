@@ -382,6 +382,9 @@ main p{
     .portfolio .card .info p{
         line-height: normal;
     }
+     .portfolio .card .info{
+        padding: 10px 10px 20px 10px;
+    }
 }
 /* about */
 
