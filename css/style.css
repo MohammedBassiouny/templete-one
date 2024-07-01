@@ -365,7 +365,9 @@ main p{
 }
 
 .portfolio .card .info{
-    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 30px;
 }
 
 .portfolio .card .info h3{
@@ -374,6 +376,7 @@ main p{
 .portfolio .card .info p{
     color: var(--sec-color);
     line-height: 1.6;
+    padding-bottom: 30px;
 }
 
 /* about */
